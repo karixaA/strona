@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+
+#box
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{ text-align: center;
+    background-color:darkslategrey;
+ color: white;
+ margin-top: 20px;   
+ font-size: 40px;
+    letter-spacing: 3px;
+    
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#menu
+{
+background-color: darkolivegreen;
+margin-top: 0px;
+color: white;
+padding: 20px;
+
+    
+}
+
+#topbar
+{
+
+background-color:olive;
+padding: 10px;
+color:white;
+margin-top: 20px;
+margin-bottom: 25px;
+height: 180px;
+}
+
+#topbarL
+{
+    float:left;
+ padding:20px;
+ width: 130px;
+ text-align: center;
+ border-right: 3px dotted #968181;
+}
+
+
+#topbarR
+{
+    float:left;
+    padding:10px;
+    width:300px;
+    font-size: 16px;
+    text-align: justify;
+
+}
+#sidebar
+{
+    background-color: darkolivegreen;
+    color: papayawhip;
+    float:right;
+    min-width: 200px;
+    min-height: 640px;
+padding:20px;
+text-align: right;
+    font-size: 18px;
+
+
+
+}
+
+#sidebarL
+{
+    background-color: darkolivegreen;
+    color: papayawhip;
+    float:left;
+    min-width: 200px;
+    min-height: 640px;
+padding:20px;
+text-align: left;
+    font-size: 18px;
+}
+
+
+#content
+{
+    color:thistle;
+    padding:50px;
+    float: left;
+    width: 620px;
+     background-color:rgba(68, 75, 116, 0.911);
+     min-height: 580px;
+     text-align: justify;
+    
+}
+
+#footer
+{
+    clear:both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.option
+
+{
+    float:left;
+    min-width: 50px;
+    height:25px;
+    font-size: 18px;
+    padding:10px;
+    border-right: 2px dotted rgb(37, 59, 0);
+    opacity: 0.8;
+
+}
+.option:hover{
+    background-color:purple;
+    cursor: pointer;
+}
+
+.optionL
+{
+    font-size: 18px;
+    height: 25px;
+    padding:10px;
+    border-bottom: 2px dotted #6265ff;
+}
+
+.optionL:hover
+{
+background-color: #ff0000;
+color: white;
+cursor:pointer;
+}
+
+#img
+{
+margin-left: 100px;
+margin-top: 70px;
+}
+
+#linki
+{
+    background-color: darkkhaki;
+}
+
